@@ -12,10 +12,10 @@ html, body {
   color: #fff;
   font-family: "DOS", sans-serif;
 }
-inv {
+.inv {
     color:#000;
     background-color: #fff;
 }
-full {
+.full {
     width: 100%;
 }
