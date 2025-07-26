@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "DOS";
+  src: url("/OnlineMachines/DOSANK.woff") format("WOFF");
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+  background-color: #000;
+  color: #fff;
+  font-family: "DOS", sans-serif;
+}
+inv {
+    color:#000;
+    background-color: #fff;
+}
+full {
+    width: 100%;
+}
