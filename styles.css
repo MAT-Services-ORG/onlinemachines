@@ -11,11 +11,5 @@ html, body {
   background-color: #000;
   color: #fff;
   font-family: "DOS", sans-serif;
-}
-.inv {
-    color:#000;
-    background-color: #fff;
-}
-.full {
-    width: 100%;
+  width: 100%;
 }
