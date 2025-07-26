@@ -1,6 +1,6 @@
 @font-face {
   font-family: "DOS";
-  src: url("/onlinemachines/DOSANK.woff") format("WOFF");
+  src: url("DOSANK.woff") format("WOFF"); /*/onlinemachines/*/
 }
 
 html, body {
