@@ -5,20 +5,18 @@
         <title>OnlineMachines</title>
         <script src="/API/all/1.0.js" ></script>
         <link rel="stylesheet" href="/onlinemachines/styles.css">
-        <!--/onlinemachines/-->
         <script>
             document.addEventListener('keydown', function(event) {
                 console.log(`Touche pressée : ${event.key}`);
                 if (event.key === 'Enter') {
-                    window.location.href = "./VM/"
+                    window.location.href = "./vm/"
                 }
             });
         </script>
     </head>
     <body>
-        <header style="white-space: pre;" id="header">
+        <header style="white-space: pre;" id="header"></header>
         <script>XHTTPReq("header", "/onlinemachines/header.htm");</script> 
-        </header>
         <content>
 <pre>
 OnlineMachines [Online Version] 
@@ -27,7 +25,7 @@ OnlineMachines [Online Version]
 OnlineMachines is a website that allows you to create a virtual machine in your browser.
 All data was stored online.
 
-Press enter or <a href="./VM/">click here</a> to continue...
+Press enter or <a href="./vm/">click here</a> to continue...
 </pre>
         </content>
     </body>
