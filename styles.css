@@ -17,4 +17,5 @@ html, body {
 header {
   background-color: #ffffff;
   color: #000;
+  white-space: pre;
 }
