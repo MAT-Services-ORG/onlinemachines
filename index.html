@@ -6,6 +6,14 @@
         <script src="/API/all/1.0.js" ></script>
         <link rel="stylesheet" href="/onlinemachines/styles.css">
         <!--/onlinemachines/-->
+        <script>
+            document.addEventListener('keydown', function(event) {
+                console.log(`Touche pressée : ${event.key}`);
+                if (event.key === 'Enter') {
+                    window.location.href = "./VM/"
+                }
+            });
+        </script>
     </head>
     <body>
         <header style="white-space: pre;" id="header">
@@ -14,12 +22,12 @@
         <content>
 <pre>
 OnlineMachines [Online Version] 
-(c) MAT Services Organization. License Apache 2.0
+(c) MAT Services Organization. License Apache 2.0.
 
 OnlineMachines is a website that allows you to create a virtual machine in your browser.
 All data was stored online.
 
-Press <a href="">here</a> to continue...
+Press enter or <a href="./VM/">click here</a> to continue...
 </pre>
         </content>
     </body>
