@@ -13,3 +13,8 @@ html, body {
   font-family: "DOS", sans-serif;
   width: 100%;
 }
+
+header {
+  background-color: #ffffff;
+  color: #000;
+}
