@@ -10,7 +10,7 @@ html, body {
   overflow: hidden;
   background-color: #000;
   color: #fff;
-  font-family: "DOS", sans-serif;
+  font-family: "DOS", 'Consolas', 'Courier New', monospace;
   width: 100%;
 }
 
