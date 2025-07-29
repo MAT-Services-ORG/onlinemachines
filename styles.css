@@ -13,6 +13,7 @@ html, body {
   font-family: "DOS", sans-serif, monospace;
   width: 100%;
   font-size-adjust: none;
+  line-height: 1;
 }
 
 header {
