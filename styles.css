@@ -10,10 +10,9 @@ html, body {
   overflow: hidden;
   background-color: #000;
   color: #fff;
-  font-family: "DOS", 'Consolas', 'Courier New', monospace;
+  font-family: "DOS", sans-serif, monospace;
   width: 100%;
-  font-size: 16px; /* DOS Font? */
-  line-height: 1;
+  font-size-adjust: none;
 }
 
 header {
