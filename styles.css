@@ -12,6 +12,8 @@ html, body {
   color: #fff;
   font-family: "DOS", 'Consolas', 'Courier New', monospace;
   width: 100%;
+  font-size: 16px; /* DOS Font? */
+  line-height: 1;
 }
 
 header {
