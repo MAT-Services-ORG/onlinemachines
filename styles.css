@@ -21,3 +21,8 @@ header {
   color: #000;
   white-space: pre;
 }
+
+a {
+  text-decoration:none;
+  color: unset;
+}
